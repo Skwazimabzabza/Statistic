@@ -53,7 +53,7 @@ void generateFileStatistics(const char* inputFile, const char* outputFile) {
         lineCount++;
     }
 
-    // Запись статистики в новый файл
+    
     outFile << "Количество символов: " << charCount << std::endl;
     outFile << "Количество строк: " << lineCount << std::endl;
     outFile << "Количество гласных букв: " << vowelCount << std::endl;
